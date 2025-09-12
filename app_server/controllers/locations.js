@@ -4,7 +4,7 @@
  };
  /* GET 'Location info' page */
  const locationInfo = (req, res) => {
-  res.render('locationinfo', { title: 'Location info' });
+  res.render('location-info', { title: 'Location info' });
  };
  /* GET 'Add review' page */
  const addReview = (req, res) => {
